@@ -1,5 +1,5 @@
 ---
-name: support-triage
+name: protected-support-triage
 description: Classify a support report, identify missing facts, and suggest the next investigation step.
 ---
 

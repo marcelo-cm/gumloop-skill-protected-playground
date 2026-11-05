@@ -1,5 +1,5 @@
 ---
-name: release-summary
+name: protected-release-summary
 description: Turn a short list of product changes into a clear release summary with checks and open questions.
 ---
 
