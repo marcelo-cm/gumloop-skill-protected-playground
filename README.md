@@ -9,7 +9,9 @@ This public repository contains no customer data or credentials.
 - Branch: `main`
 - Source folder: `skills`
 
-The repository contains two valid skills: `release-summary` and `support-triage`.
+The repository contains two valid skills: `protected-release-summary` and
+`protected-support-triage`. These names differ from the unprotected playground
+so both repositories can be connected to the same Gumloop organization.
 Importing the repository root also finds only these two skills.
 
 ## Branch protection
@@ -26,8 +28,8 @@ Merge it only when ready to test the resulting GitHub-to-Gumloop sync.
 
 ## Example tasks
 
-Ask Agent X to use `release-summary` with the sample changes, or ask it to use
-`support-triage` for this synthetic report:
+Ask Agent X to use `protected-release-summary` with the sample changes, or ask
+it to use `protected-support-triage` for this synthetic report:
 
 > User A can open the dashboard, but exporting a report fails. Other users can
 > export reports. The issue started after User A changed teams.
